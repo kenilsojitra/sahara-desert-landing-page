@@ -19,6 +19,7 @@
     height: 12%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -35,6 +36,12 @@
 nav {
     flex: 1;
     text-align: right;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
 }
 
 nav ul li {
